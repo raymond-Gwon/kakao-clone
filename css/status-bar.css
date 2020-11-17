@@ -9,7 +9,8 @@ justify-content: center;
 .status-bar__column {
 width: 33%;
 }
-.status-bar__column: first-child span {
+.status-bar__column-service span {
+    margin-right: 2px;
 }
 .status-bar__column:nth-child(2) {
 display: flex;
@@ -19,4 +20,7 @@ justify-content: center;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+}
+.status-bar__column:last-child i{
+    margin-left: 5px;
 }
